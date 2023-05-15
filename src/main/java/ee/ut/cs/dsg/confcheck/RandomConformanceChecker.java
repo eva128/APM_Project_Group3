@@ -13,7 +13,7 @@ public class RandomConformanceChecker extends ConformanceChecker{
 
 
 
-    protected int exploitVersusExploreFrequency = 113;
+    protected int exploitVersusExploreFrequency = 100; //113 by default --> must be 100 according to the paper (frequency)
     protected int numEpochs;
     protected boolean onMatchFollowPrefixOnly = false;
     protected boolean verbose = false;
