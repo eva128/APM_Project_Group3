@@ -109,9 +109,9 @@ public class Runner_OnlyRelevantCode {
         // Additional data investigation (Group 3)
         String dataNatalie = myPath+ "\\Group3\\PrepaidTravelCost.xml";
         String dataNatalieBPI2018 = myPath+ "\\Group3\\BPI2018.xes";
-        String dataNatalieAalst = myPath+ "\\Group3\\review_example_large.xml";
-        String dataNatalieCf = myPath+ "\\Group3\\Lfull.xml"; // https://processmining.org/old-version/event-book.html
-        String dataNatalieHos = myPath+ "\\Group3\\Hospital_log.xes";
+        String dataNatalieAalst = myPath+ "\\Group3\\Aalst\\review_example_large.xml";
+        String dataNatalieCf = myPath+ "\\Group3\\cf\\Chapter_7\\Lfull.xml"; // https://processmining.org/old-version/event-book.html
+        String dataNatalieHos = myPath+ "\\Group3\\hos\\Hospital_log.xes";
 
         /** Run one of these approaches. Change parameter to run different data and approach:
         First parameter must be clustered, simulated, frequency, random, reduced of any year. This is the proxy log which will be used to construct the tree.
