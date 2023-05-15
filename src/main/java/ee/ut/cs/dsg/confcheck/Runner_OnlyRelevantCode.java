@@ -106,6 +106,12 @@ public class Runner_OnlyRelevantCode {
         String sample2017Log = myPath + "\\BPI2017\\sampledLog.xml";
         String frequency2017Log = myPath + "\\BPI2017\\freq_frequencyLog.xml";
 
+        // Additional data investigation (Group 3)
+        String dataNatalie = myPath+ "\\Group3\\PrepaidTravelCost.xml";
+        String dataNatalieBPI2018 = myPath+ "\\Group3\\BPI2018.xes";
+        String dataNatalieAalst = myPath+ "\\Group3\\review_example_large.xml";
+        String dataNatalieCf = myPath+ "\\Group3\\Lfull.xml"; // https://processmining.org/old-version/event-book.html
+        String dataNatalieHos = myPath+ "\\Group3\\Hospital_log.xes";
 
         /** Run one of these approaches. Change parameter to run different data and approach:
         First parameter must be clustered, simulated, frequency, random, reduced of any year. This is the proxy log which will be used to construct the tree.
@@ -114,13 +120,16 @@ public class Runner_OnlyRelevantCode {
         or ConformanceCheckerType.DISTANCE to run baseline approach.
         Last parameter does not change results. Just for preferred sorted output. */
 
-        testOnConformanceApproximationResults(frequency2017Log, sample2017Log, ConformanceCheckerType.TRIE_RANDOM, LogSortType.NONE);
+        String modelLog = frequency2017Log;
+        String inputLog = sample2017Log;
+
+        testOnConformanceApproximationResults(modelLog, inputLog, ConformanceCheckerType.TRIE_RANDOM, LogSortType.NONE);
 
         /**
          * Also run those lines to be able to compare the distance-based and tree based approach against each other.
          * Then the MAE get calculated.
         */
-        testOnConformanceApproximationResults(frequency2012Log, sample2012Log, ConformanceCheckerType.DISTANCE, LogSortType.NONE);
+        testOnConformanceApproximationResults(modelLog, inputLog, ConformanceCheckerType.DISTANCE, LogSortType.NONE);
         // compute MAE of tree-based approach and distance-based approach
         double mae = (totalCostsBaseline - totalCostsTree) / 101;
         System.out.println("Alignment costs tree-based approach: " + totalCostsTree);
