@@ -1,5 +1,14 @@
 # Efficient Approximate Conformance Checking Using Trie Data Structures
 
+This repository contains the source code of the project we replicated and also an Excel file, which contains our results and calculations.
+
+To replicate our results, please run the class Runner_OnlyRelevantCode.java. This is our modified class, which we cleaned up and adjusted, in order to replicate the results of the paper. Therefore, we excluded unnecessary parts and added the caldulation for the MAE. 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Original README
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## What is conformance checking?
 <div style="text-align: justify">
 Business process conformance checking is a sub-field of process mining. The main question conformance checking 
