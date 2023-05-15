@@ -5,6 +5,9 @@ This repository contains the source code of the project we replicated and also a
 To replicate our results, please run the class Runner_OnlyRelevantCode.java. This is our modified class, which we cleaned up and adjusted, in order to replicate the results of the paper. Therefore, we excluded unnecessary parts and added the caldulation for the MAE. 
 To run different datasets, please change the path in the class Runner_OnlyRelevantCode.java to your personal path, where the datasets are saved.
 
+You can download the datasets from:  [this link](https://tartuulikool-my.sharepoint.com/:f:/g/personal/ahmed79_ut_ee/EgFSjN2C0KJOsHWMV6oATpUBfAgjsQtPOIt7gt4zzEnYcw?e=WbOOgH) 
+The data for additional investigation are included in /data folder. 
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Original README
