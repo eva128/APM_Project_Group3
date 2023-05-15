@@ -3,6 +3,7 @@
 This repository contains the source code of the project we replicated and also an Excel file, which contains our results and calculations.
 
 To replicate our results, please run the class Runner_OnlyRelevantCode.java. This is our modified class, which we cleaned up and adjusted, in order to replicate the results of the paper. Therefore, we excluded unnecessary parts and added the caldulation for the MAE. 
+To run different datasets, please change the path in the class Runner_OnlyRelevantCode.java to your personal path, where the datasets are saved.
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
