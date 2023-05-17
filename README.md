@@ -8,6 +8,8 @@ To run different datasets, please change the path in the class Runner_OnlyReleva
 You can download the datasets from:  [this link](https://tartuulikool-my.sharepoint.com/:f:/g/personal/ahmed79_ut_ee/EgFSjN2C0KJOsHWMV6oATpUBfAgjsQtPOIt7gt4zzEnYcw?e=WbOOgH) 
 The data for additional investigation are included in /Group3 folder. 
 
+The detailed results (Runtime + MAE) can be found in this file: Group 3 Detailed Results.xlsx
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Original README
